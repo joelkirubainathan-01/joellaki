@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding:0;
+}
+nav{
+    background-color: black;
+    color: white;
+    padding: 15px;
+
+}
+li,h1,ul{
+    display: inline;
+    
+}
+
+ul{
+    margin-left: 2%;
+    font-size:large;
+
+    
+}
+li{
+    color: gray;
+    cursor: pointer;
+
+}
+li:hover{
+
+    color: white;
+}
+body{
+    background-color: #101314;
+    color: white;
+}
+
+.img{
+    border-color: white;
+    border-width: 2ox;
+    border-style: solid;
+    display: inline-block;
+    width:346px;
+    margin-left: 10%;
+    margin-top: 5%;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.box{
+    background-color: black;
+    height: 390px;
+    width: 622px;
+    margin-left: 48%;
+    margin-top: -30%;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.codee{
+    color: whitesmoke;
+    width: 499px;
+    height: 34px;
+    text-align: justify;
+    position: relative;
+    top:-379px;
+    left: 806px;
+    
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+nav ul li {
+    animation: fadeIn 1s ease-in-out;
+    animation-fill-mode: both;
+}
+.codee {
+    animation: fadeIn 1s ease-in;
+    animation-fill-mode: both;
+}
+
+nav ul li:nth-child(1) { animation-delay: 0.2s; }
+nav ul li:nth-child(2) { animation-delay: 0.4s; }
+nav ul li:nth-child(3) { animation-delay: 0.6s; }
+nav ul li:nth-child(4) { animation-delay: 0.8s; }
+nav ul li:nth-child(5) { animation-delay: 1s; }
+code :nth-last-child(6) {animation-delay: 0.1s;}
+
+
+
+.boxe{
+    background-color:black;
+    height: 391px;
+    width: 682px;
+    margin-left: 28%;
+    margin-top: 10%;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+
+.into{
+    color: whitesmoke;
+    width: 99px;
+    height: 34px;
+    position: relative;
+    top:-379px;
+    left: 506px;
+}
+
+.none{
+    font-style: italic;
+}
+
+.headewe{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color:gray;
+    text-align: center;
+}
+
+.non{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color:gray;
+    text-align: center;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+nav ul li {
+    margin-right: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: gray;
+}
+nav ul li a:hover {
+    color: white;
+}
+
+
+.otherss{
+    font-style: italic;
+    color: gray;    
+    text-align: center;
+    padding-bottom: 12%;
+}
